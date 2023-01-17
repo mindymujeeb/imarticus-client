@@ -28,17 +28,17 @@ export default function App() {
   return (
     <div className="App">
       <Routes>
-        <Route exact path='/dashboard/courses' element={
+        <Route exact path='/' element={
           <><Navbar text='my courses' text2='my courses' /><Home /></>
         } />
-        <Route exact path='/dashboard/courses/machine-learning' element={
+        <Route exact path='/my-courses/imarticus-student-testimonials' element={
           <><Navbar text2='course' text={name} /><Course /></>
         } />
-        <Route exact path='/dashboard/courses/machine-learning/content/:id' element={
+        <Route exact path='/my-courses/imarticus-student-testimonials/:id' element={
           <ContentPage />
         } />
         <Route path='*' element={
-          <><Navbar text='Oops.....' text2='dashboard' /><ErrorPage /></>
+          <><Navbar text='Oops.....' text2='home' /><ErrorPage /></>
         } />
       </Routes>
     </div>

@@ -43,7 +43,7 @@ export default function ContentPage() {
                 <div className="accordion-body">
                   <div className='accordian-body-div'>
                     <img className='image-play-button' alt='help us img' src={playButton}/>
-                    <Link to={`/dashboard/courses/machine-learning/content/63c66547a99988c2401b764b`} className='link-video' ><p className='video-text-accordian-body'>listen to their perspectives</p></Link>
+                    <Link to={`/my-courses/imarticus-student-testimonials/63c66547a99988c2401b764b`} className='link-video' ><p className='video-text-accordian-body'>listen to their perspectives</p></Link>
                     <p className='time-text-accordian-body'>{Time[0]}</p>
                   </div>
                 </div>
@@ -59,7 +59,7 @@ export default function ContentPage() {
                 <div className="accordion-body">
                   <div className='accordian-body-div'>
                     <img className='image-play-button' alt='help us img' src={playButton}/>
-                    <Link to={`/dashboard/courses/machine-learning/content/63c66559a99988c2401b764d`} className='link-video' ><p className='video-text-accordian-body'>listen to their perspectives</p></Link>
+                    <Link to={`/my-courses/imarticus-student-testimonials/63c66559a99988c2401b764d`} className='link-video' ><p className='video-text-accordian-body'>listen to their perspectives</p></Link>
                     <p className='time-text-accordian-body'>{Time[1]}</p>
                   </div>
                 </div>
@@ -75,7 +75,7 @@ export default function ContentPage() {
                 <div className="accordion-body">
                 <div className='accordian-body-div'>
                   <img className='image-play-button' alt='help us img' src={playButton}/>
-                  <Link to={`/dashboard/courses/machine-learning/content/63c665daa99988c2401b764f`}className='link-video' ><p className='video-text-accordian-body'>listen to their perspectives</p></Link>
+                  <Link to={`/my-courses/imarticus-student-testimonials/63c665daa99988c2401b764f`}className='link-video' ><p className='video-text-accordian-body'>listen to their perspectives</p></Link>
                   <p className='time-text-accordian-body'>{Time[2]}</p>
                 </div>
                 </div>
@@ -91,7 +91,7 @@ export default function ContentPage() {
                 <div className="accordion-body">
                 <div className='accordian-body-div'>
                   <img className='image-play-button' alt='help us img' src={playButton}/>
-                  <Link to={`/dashboard/courses/machine-learning/content/63c6660ca99988c2401b7651`}className='link-video' ><p className='video-text-accordian-body'>listen to their perspectives</p></Link>
+                  <Link to={`/my-courses/imarticus-student-testimonials/63c6660ca99988c2401b7651`}className='link-video' ><p className='video-text-accordian-body'>listen to their perspectives</p></Link>
                   <p className='time-text-accordian-body'>{Time[3]}</p>
                 </div>
                 </div>
@@ -107,7 +107,7 @@ export default function ContentPage() {
                 <div className="accordion-body">
                 <div className='accordian-body-div'>
                   <img className='image-play-button' alt='help us img' src={playButton}/>
-                  <Link to={`/dashboard/courses/machine-learning/content/63c6662aa99988c2401b7653`}className='link-video' ><p className='video-text-accordian-body'>listen to their perspectives</p></Link>
+                  <Link to={`/my-courses/imarticus-student-testimonials/63c6662aa99988c2401b7653`}className='link-video' ><p className='video-text-accordian-body'>listen to their perspectives</p></Link>
                   <p className='time-text-accordian-body'>{Time[4]}</p>
                 </div>
                 </div>
@@ -123,7 +123,7 @@ export default function ContentPage() {
                 <div className="accordion-body">
                 <div className='accordian-body-div'>
                   <img className='image-play-button' alt='help us img' src={playButton}/>
-                  <Link to={`/dashboard/courses/machine-learning/content/63c6663ea99988c2401b7655`}className='link-video' ><p className='video-text-accordian-body'>listen to their perspectives</p></Link>
+                  <Link to={`/my-courses/imarticus-student-testimonials/63c6663ea99988c2401b7655`}className='link-video' ><p className='video-text-accordian-body'>listen to their perspectives</p></Link>
                   <p className='time-text-accordian-body'>{Time[4]}</p>
                 </div>
                 </div>
@@ -132,7 +132,7 @@ export default function ContentPage() {
           </div>
         </div>
         <div className='course-video-section-2'>
-          <p className='course-page-location-text'><Link to='/dashboard/courses'>all courses</Link> &gt; <Link to='/dashboard/courses/machine-learning'>{Name}</Link> &gt; content</p>
+          <p className='course-page-location-text'><Link to='/'>all courses</Link> &gt; <Link to='/my-courses/imarticus-student-testimonials/'>{Name}</Link> &gt; content</p>
           {
             videos.map(({_id, url})=>{
               if(params.id === _id){
@@ -144,7 +144,6 @@ export default function ContentPage() {
               }
             })
           }
-          
         </div>
       </div>
     </div>

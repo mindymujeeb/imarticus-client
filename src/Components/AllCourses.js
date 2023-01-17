@@ -25,7 +25,7 @@ export default function AllCourses() {
         <p className='individual-course-heading'>individual course</p>
         <div className='course-all-courses'>
           <div className='section-1-course-all-courses'>
-            <img className='image-all-courses' alt='help us img' src={courseImage}/>
+            <img className='image-all-courses' alt='course img' src={courseImage}/>
           </div>
           <div className='section-2-course-all-courses'>
             <p className='course-name-all-courses'>{name}</p>
@@ -36,7 +36,7 @@ export default function AllCourses() {
             </div>
           </div>
           <div className='section-3-course-all-courses'>
-            <Link className='start-course' to='/dashboard/courses/machine-learning'>start course</Link>
+            <Link className='start-course' to='/my-courses/imarticus-student-testimonials'>start course</Link>
           </div>
         </div>
       </div>

@@ -13,12 +13,12 @@ export default function SideBar({text2}) {
           <img className='sidebar-image' alt='help us img' src={sidebarImage}/>
         </div>
         <div className='courses-text-sidebar-div'>
-          <Link className='courses-text-sidebar' to='/dashboard/courses/'>{text2}</Link>
+          <Link className='courses-text-sidebar' to='/my-courses/imarticus-student-testimonials'>{text2}</Link>
         </div>
         <div className='bottom-section-sidebar'>
           <p className='facing-problems-text'>facing problems?</p>
           <div className='help-sidebar-div'>
-            <Link className='help-sidebar' to='/dashboard/courses/'>get help</Link>
+            <Link className='help-sidebar' to='/'>get help</Link>
           </div>
         </div>
       </div>
